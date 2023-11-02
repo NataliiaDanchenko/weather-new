@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 18px; 
+    background: rgb(127, 175, 242);
+}
+._h2 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgba(12, 56, 100, 0.3);
+    cursor: pointer;
+}
+.general_buttons_ask {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+.general_buttons_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.button {
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgb(72, 138, 232);
+    box-shadow: rgba(8, 116, 223, 0.3) 10px 10px 20px 10px;
+    border-radius: 10px;
+}
+.button:hover {
+    background: rgba(12, 56, 100, 0.3);
+    cursor: pointer;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content {
+    border-radius: 10px;
+    box-shadow: rgba(8, 116, 223, 0.3) 10px 10px 20px 10px;
+    background: rgb(72, 138, 232);
+    margin: 100px 0px 50px 20px;
+    padding: 20px;
+}
+.cities {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.city_name {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.city_flex_main {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 600px) {
+    .button {
+        width: 30%;
+       
+    }
+}
+@media (max-width: 400px) {
+    .button {
+        width: 40%;
+       
+    }
+}
